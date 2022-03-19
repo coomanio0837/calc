@@ -1,0 +1,146 @@
+.calc{
+    margin: 70px auto;
+    width: 400px;
+    height: 450px;
+    border-radius: 30px;
+    background-color: black;
+    color: white;
+    padding: 25px;
+}
+.screen{
+    height: 50px;
+    background-color: rgb(235, 235, 235);
+    color: rgb(0, 0, 0);
+    text-align: right;
+    width: 382px;
+    font-size: large;
+    border: 2px solid gray;
+    font-family: Arial;
+}
+.btn7{
+    width: 90px;
+    height: 50px;
+    background-color: rgb(160, 160, 160);
+    color: rgb(0, 0, 0);
+    font-size: medium;
+}
+.btn8{
+    width: 90px;
+    height: 50px;
+    background-color: rgb(160, 160, 160);
+    color: rgb(0, 0, 0);
+    font-size: medium;
+}
+.btn9{
+    width: 90px;
+    height: 50px;
+    background-color: rgb(160, 160, 160);
+    color: rgb(0, 0, 0);
+    font-size: medium;
+}
+.btnMultiply{
+    width: 90px;
+    height: 50px;
+    background-color: rgb(255, 110, 57);
+    color: rgb(0, 0, 0);
+    font-size: medium;
+}
+.btn4{
+    width: 91.5px;
+    height: 50px;
+    background-color: rgb(160, 160, 160);
+    color: rgb(0, 0, 0);
+    font-size: medium;
+}
+.btn5{
+    width: 91.5px;
+    height: 50px;
+    background-color: rgb(160, 160, 160);
+    color: rgb(0, 0, 0);
+    font-size: medium;
+}
+.btn6{
+    width: 91.5px;
+    height: 50px;
+    background-color: rgb(160, 160, 160);
+    color: rgb(0, 0, 0);
+    font-size: medium;
+}
+.btnDivide{
+    width: 91.5px;
+    height: 50px;
+    background-color: rgb(255, 110, 57);
+    color: rgb(0, 0, 0);
+    font-size: medium;
+}
+.btn1{
+    width: 92.7px;
+    height: 50px;
+    background-color: rgb(160, 160, 160);
+    color: rgb(0, 0, 0);
+    font-size: medium;
+}
+.btn2{
+    width: 92.7px;
+    height: 50px;
+    background-color: rgb(160, 160, 160);
+    color: rgb(0, 0, 0);
+    font-size: medium;
+}
+.btn3{
+    width: 92.7px;
+    height: 50px;
+    background-color: rgb(160, 160, 160);
+    color: rgb(0, 0, 0);
+    font-size: medium;
+}
+.btnPlus{
+    width: 92.7px;
+    height: 50px;
+    background-color: rgb(255, 110, 57);
+    color: rgb(0, 0, 0);
+    font-size: medium;
+}
+.btn0{
+    width: 93.5px;
+    height: 50px;
+    background-color: rgb(160, 160, 160);
+    color: rgb(0, 0, 0);
+    font-size: medium;
+}
+.btn00{
+    width: 93.5px;
+    height: 50px;
+    background-color: rgb(160, 160, 160);
+    color: rgb(0, 0, 0);
+    font-size: medium;
+}
+.btnDischarge{
+    width: 93.5px;
+    height: 50px;
+    background-color: rgb(160, 160, 160);
+    color: rgb(0, 0, 0);
+    font-size: large;
+}
+.btnMinus{
+    width: 93.5px;
+    height: 50px;
+    background-color: rgb(255, 110, 57);
+    color: rgb(0, 0, 0);
+    font-size: medium;
+}
+.btnC{
+    width: 191px;
+    height: 60px;
+    background-color: rgb(255, 50, 50);
+    color: rgb(0, 0, 0);
+    font-size: large;
+}
+.btnResultat{
+    width: 191px;
+    height: 60px;
+    background-color: rgb(255, 50, 50);
+    color: rgb(0, 0, 0);
+    font-size: large;
+}
+
