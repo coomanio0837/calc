@@ -6,38 +6,43 @@
 </head>
 <body>
     <div class="calc">
-        <div class="screen">
-            <p>0</p>
-        </div>
-        <div class="btns">
+            <div class="item input">
+                <input class="screen" type="text" id="screen" readonly>
+            </div>
+        <div class="btns" id="btns">
             <h1>
-                <button class="btn7">7</button>
-                <button class="btn8">8</button>
-                <button class="btn9">9</button>
-                <button class="btnMultiply">*</button>
+                <button class="btn7" onclick="inputDate('7')">7</button>
+                <button class="btn8" onclick="inputDate('8')">8</button>                
+                <button class="btn9" onclick="inputDate('9')">9</button>
+                <button class="btnMultiply" onclick="inputDate('*')">*</button>
             </h1>
             <h2>
-                <button class="btn4">4</button>
-                <button class="btn5">5</button>
-                <button class="btn6">6</button>
-                <button class="btnDivide">/</button>
+                <button class="btn4" onclick="inputDate('4')">4</button>
+                <button class="btn5" onclick="inputDate('5')">5</button>
+                <button class="btn6" onclick="inputDate('6')">6</button>
+                <button class="btnDivide" onclick="inputDate('/')">/</button>
             </h2>
             <h3>
-                <button class="btn1">1</button>
-                <button class="btn2">2</button>
-                <button class="btn3">3</button>
-                <button class="btnPlus">+</button>
+                <button class="btn1" onclick="inputDate('1')">1</button>
+                <button class="btn2" onclick="inputDate('2')">2</button>
+                <button class="btn3" onclick="inputDate('3')">3</button>
+                <button class="btnPlus" onclick="inputDate('+')">+</button>
             </h3>
             <h4>
-                <button class="btn0">0</button>
-                <button class="btn00">00</button>
-                <button class="btnDischarge">.</button>
-                <button class="btnMinus">-</button>
+                <button class="btn0" onclick="inputDate('0')">0</button>
+                <button class="btn00" onclick="inputDate('00')">00</button>
+                <button class="btnDischarge" onclick="inputDate('.')">.</button>
+                <button class="btnMinus" onclick="inputDate('-')">-</button>
             </h4>
+
             <h5>
-                <button class="btnC">C</button>
-                <button class="btnResultat">=</button>
+                <button class="btnLeft" onclick="inputDate('(')">(</button>
+                <button class="btnRight" onclick="inputDate(')')">)</button>
             </h5>
+            <h6>
+                <button class="btnC" onclick="clean()">C</button>
+                <button class="btnResult">=</button>
+            </h6>
 
         </div>    
     </div>
